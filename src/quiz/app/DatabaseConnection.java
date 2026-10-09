@@ -7,7 +7,7 @@ import java.sql.SQLException;
 public class DatabaseConnection {
     private static final String URL = "jdbc:mysql://localhost:3306/quiz_app_db?useSSL=false&serverTimezone=UTC";
     private static final String USER = "root"; // Update with your MySQL username
-    private static final String PASSWORD = "@Sahin2003"; // Update with your MySQL password
+    private static final String PASSWORD = "@password"; // Update with your MySQL password
 
     public static Connection getConnection() {
         Connection con = null;
